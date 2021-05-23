@@ -83,7 +83,7 @@ const check = () => {
         oznam.innerHTML = `you won the game, after ${counter} guesses`
         console.log(`you won the game ${counter}`)
       } else {
-        oznam.innerHTML = `${tip} : ${bulls} bulls and ${cows} cows , guesses ${counter}`
+        oznam.innerHTML += ` ${tip} : ${bulls} bulls | ${cows} cows | guesses:${counter}`
         console.log(`${tip} : ${bulls} bulls and ${cows} cows , guesses ${counter}, huray...`)
       }
 

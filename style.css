@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: orange;
+  position: relative;
+}
+
+header {
+  margin-top: 2%;
+  margin-left: 45%;
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px 4px #32c95f;
+}  
+
+.container {
+  outline: 1px solid;
+  margin: 4rem auto;
+  width: 100vmin;
+  min-height: 40vmax;
+  padding: 5rem;
+  background: linear-gradient(green, yellow);
+  position: relative;
+}
+
+label {
+  display: flex;
+  font-size: 36px;
+  margin-top: 5rem;
+  margin-left: 3rem;
+  color: white;
+  text-shadow: 2px 2px 4px orange;
+}
+
+.tip {
+  width: 5rem;
+ margin-left: 0.5em;
+}
+
+button {
+  width: 11rem;
+  height: 2.5rem;
+  margin-top: 1.5em;
+  margin-left: 8rem;
+  font-size: 24px;
+  background-color: orange;
+  color:white;
+  text-shadow: 2px 2px 4px #32c95f;
+}
+
+p {
+  font-size: 18px;
+}
+
+img {
+  width: 55%;
+  position: absolute;
+  left: 52%;
+  bottom: -8%;
+ 
+}
+
+.oznam {
+  width: 35%;
+  height: 6rem;
+  background-color: transparent;
+  overflow: auto;
+}
