@@ -50,9 +50,10 @@ label {
 button {
   width: 11rem;
   height: 2.5rem;
-  margin-top: 1.5em;
-  margin-left: 8rem;
+  margin-top: 1.5rem;
+  margin-left: 5rem;
   font-size: 24px;
+  border: 2px solid white;
   background-color: orange;
   color:white;
   text-shadow: 2px 2px 4px #32c95f;
@@ -75,4 +76,5 @@ img {
   height: 6rem;
   background-color: transparent;
   overflow: auto;
+  border: 1px solid;
 }

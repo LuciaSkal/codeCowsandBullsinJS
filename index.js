@@ -76,18 +76,16 @@ const check = () => {
 	  
     counter++
 
-	  	if (bulls === 0 && cows === 0) {
-        oznam.innerHTML = 'try again'
-	  		console.log('try again')
-      }	else if (bulls === 4) {
+	  	
+       if (bulls === 4) {
         oznam.innerHTML = `you won the game, after ${counter} guesses`
         console.log(`you won the game ${counter}`)
       } else {
-        oznam.innerHTML += ` ${tip} : ${bulls} bulls | ${cows} cows | guesses:${counter}`
+        oznam.innerHTML += ` ${tip} : ${bulls} bulls | ${cows} cows | guesses:${counter} <br>`
         console.log(`${tip} : ${bulls} bulls and ${cows} cows , guesses ${counter}, huray...`)
       }
-
     }
+    
       
   }
   game = true
