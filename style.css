@@ -76,5 +76,6 @@ img {
   height: 6rem;
   background-color: transparent;
   overflow: auto;
-  border: 1px solid;
+  border-top: 1px dashed;
+  text-align: center;
 }
